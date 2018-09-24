@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Generate random user with name, nationality and gender. -->
+<!-- cerner_2^5_2018 -->
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $.ajax({url: 'https://randomuser.me/api/?inc=gender,name,nat', dataType: 'json', success: function(result){
+                        $("#div2").html(JSON.stringify(result));
+                    }});
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="div1"><h2>Generate Random User</h2></div>
+        <button>Generate</button>
+        <div id="div2"></div>
+    </body>
+</html>
