@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<user>
+	<gender>female</gender>
+	<name>
+		<title>mrs</title>
+		<first>laura</first>
+		<last>taylor</last>
+	</name>
+	<nat>IE</nat>
+</user>
+<user>
+	<gender>female</gender>
+	<name>
+		<title>mrs</title>
+		<first>ilona</first>
+		<last>korpela</last>
+	</name>
+	<nat>FI</nat>
+</user>
+<user>
+	<gender>male</gender>
+	<name>
+		<title>mr</title>
+		<first>hanno</first>
+		<last>ackermann</last>
+	</name>
+	<nat>DE</nat>
+</user>
+<user>
+	<gender>female</gender>
+	<name>
+		<title>miss</title>
+		<first>sofia</first>
+		<last>chow</last>
+	</name>
+	<nat>CA</nat>
+</user>

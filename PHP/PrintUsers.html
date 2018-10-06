@@ -1,0 +1,15 @@
+<html>
+   <body>
+   
+      <?php
+         $xml = simplexml_load_file("users.xml") or die("Error: Cannot create object");
+         // cerner_2^5_2018
+         foreach($xml->children() as $users) { 
+            echo $users->gender . "<br> "; 
+            echo $users->name->title . ". " . $users->name->first . " " . $users->name->last . "<br> "; 
+            echo $users->nat . "<hr>"; 
+         }
+      ?>
+      
+   </body>
+</html>
