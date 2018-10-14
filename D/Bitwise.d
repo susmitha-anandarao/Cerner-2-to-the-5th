@@ -1,5 +1,5 @@
 import std.stdio;
-/* cerner_2^5_2018 */ 
+// cerner_2^5_2018
 int main(string[] args) {  
    uint a = 2;   
    uint b = 5; 
